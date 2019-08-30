@@ -11,7 +11,6 @@ server.get('/api/recipes/:id', (req, res) => {
 
   Recipes.getShoppingList(id)
     .then(recipes => {
-      console.log(recipes)
       res.json(recipes)
     })
     .catch(err => {
