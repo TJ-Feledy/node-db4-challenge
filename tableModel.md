@@ -17,3 +17,4 @@ Tables:
   - recipe_id
   - ingredient_id
   - quantity
+  - measurement
